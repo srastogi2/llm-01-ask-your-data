@@ -5,7 +5,7 @@ Two small LLM applications built on one principle: **the model handles language,
 | Project | What it does | Prompting |
 |---|---|---|
 | [Ask your data](#ask-your-data) | Answers plain-English questions about a dataset with real numbers | Few-shot (4 examples), JSON output |
-| [Pizza order bot](#pizza-order-bot/) | Takes a pizza order in conversation and returns an itemised bill | One-shot, conversational |
+| [Pizza order bot](#pizza-order-bot) | Takes a pizza order in conversation and returns an itemised bill | One-shot, conversational |
 
 Both run on a **local model via Ollama** (free) or the **OpenAI API**, switched with a `.env` setting — no code changes.
 
